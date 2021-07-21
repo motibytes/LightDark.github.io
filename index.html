@@ -81,11 +81,11 @@ function m(identifier) {
      magic(text)
    }
    else if (identifier=='secrets1') {
-     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"javascript:void(0)\" onclick=\"m(\'ideas1\')">Ideas</a> are Secrets not yet found'
+     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"javascript:void(0)\" onclick=\"m(\'ideas1\')">Ideas</a> are Secrets not yet found'
      magic(text)
    }
    else if (identifier=='ideas1') {
-     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ideas lead me to <a href=\"javascript:void(0)\" onclick=\"m(\'inspiration1\')">Inspiration</a>'
+     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ideas lead me to <a href=\"javascript:void(0)\" onclick=\"m(\'inspiration1\')">Inspiration</a>'
      magic(text)
    }
    else if (identifier=='sight1') {
@@ -141,7 +141,7 @@ function m(identifier) {
    magic(text)
   }
   else if (identifier=='darkness1') {
-    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Darkness hides <a href=\"javascript:void(0)\" onclick=\"m(\'secrets1\')">Secrets</a>  and  <a href=\"javascript:void(0)\" onclick=\"m(\'sounds1\')">Sounds</a>'
+    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Darkness hides <a href=\"javascript:void(0)\" onclick=\"m(\'secrets1\')">Secrets</a>  and  <a href=\"javascript:void(0)\" onclick=\"m(\'sounds1\')">Sounds</a>'
     magic(text)
   }
   else if (identifier=='sounds1') {
@@ -149,7 +149,7 @@ function m(identifier) {
     magic(text)
   }
   else if (identifier=='listening1') {
-    text = 'And I Listen to the Whisper of a <a href=\"javascript:void(0)\" onclick=\"m(\'listening1\')">Word</a>'
+    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And I Listen to the Whisper of a <a href=\"javascript:void(0)\" onclick=\"m(\'words1\')">Word</a>'
     magic(text)
   }
   else if (identifier=='heart1') {
@@ -161,7 +161,7 @@ function m(identifier) {
     magic(text)
   }
   else if (identifier=='voices1') {
-    text = 'My Voice Raises these <a href=\"javascript:void(0)\" onclick=\"m(\'questions0\')">Questions</a>'
+    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Voice Raises these <a href=\"javascript:void(0)\" onclick=\"m(\'questions0\')">Questions</a>'
     magic(text)
   }
   else if (identifier=='questions0') {
@@ -177,22 +177,18 @@ function m(identifier) {
     magic(text)
   }
   else if (identifier=='is1') {
-    text = '<a href=\"javascript:void(0)\" onclick=\"m(\'what1\')">What</a> is?'
+    text = '<a href=\"javascript:void(0)\" onclick=\"m(\'what1\')">What is?</a>'
     magic(text)
   }
   else if (identifier=='what1') {
-    text = 'What is <a href=\"javascript:void(0)\" onclick=\"m(\'what1\')">Within</a>?'
+    text = 'What is <a href=\"javascript:void(0)\" onclick=\"m(\'within1\')">Within</a>?'
     magic(text)
   }
-//  <!--
-//  These Words are my Voice <br>
-//  My Voice Raises these Questions <br>
-//            What is The Question? <br>
-//                    The Question Is The Mystery <br> <!-- LOOP UNTIL YOU CHOOSE IS -->
-//                   The Mystery Is The Question <br>
-//                          What is?    <br>
-//                          What is Within?
-//                        -->
+  else if (identifier=='what1') {
+    text = 'What is Within the [unwritten]'
+    magic(text)
+  }
+//  <!-- ends with what is the start
 }
 function magic(wordagain) {
     var text = `<div style=" ">
