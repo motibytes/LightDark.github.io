@@ -51,7 +51,7 @@
 
 <!-- Coming Soon - Last Update - 07.20.21 -->
 
-I Am the <a href="javascript:void(0)" onclick="m('light1')">Light</a> And The <a href="javascript:void(0)" onclick="m('darkness1')">Darkness</a>.
+<a href="javascript:void(0)" onclick="m('I')">These Words </a>Bring <a href="javascript:void(0)" onclick="m('light1')">Light</a> And The <a href="javascript:void(0)" onclick="m('darkness1')">Darkness</a>.
 </div><br>
 <!--
  <a href="javascript:void(0)" onclick="m('XXX')">XXX</a>
@@ -78,10 +78,6 @@ function m(identifier) {
    }
    else if (identifier=='beyond1') {
      text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beyond lies a <a href=\"javascript:void(0)\" onclick=\"m(\'mystery1\')">Mystery</a>.'
-     magic(text)
-   }
-   else if (identifier=='darkness1') {
-     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Darkness hides <a href=\"javascript:void(0)\" onclick=\"m(\'secrets1\')">Secrets</a>  and  <a href=\"javascript:void(0)\" onclick=\"m(\'sounds1\')">Sounds</a>.'
      magic(text)
    }
    else if (identifier=='secrets1') {
@@ -144,7 +140,10 @@ function m(identifier) {
    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creation carries me to <a href=\"javascript:void(0)\" onclick=\"m(\'spirit1\')">Spirit</a>' <!--lowercase -->
    magic(text)
   }
-
+  else if (identifier=='darkness1') {
+    text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Darkness hides <a href=\"javascript:void(0)\" onclick=\"m(\'secrets1\')">Secrets</a>  and  <a href=\"javascript:void(0)\" onclick=\"m(\'sounds1\')">Sounds</a>.'
+    magic(text)
+  }
 }
 function magic(wordagain) {
     var text = `<div style=" ">
