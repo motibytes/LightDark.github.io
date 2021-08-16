@@ -61,14 +61,15 @@
 
 <style> body {   font-family: 'Playfair Display', serif; padding: 0px 16px 0px 24px; font-size: 40px; } a {  color: black;  text-decoration: none; } </style>
 <body> <br><br>
+
 <div style="display:inline;" id="start" class="start">
 <a href="javascript:void(0)" onclick="m('words1')">These Words </a>Bring <a href="javascript:void(0)" onclick="m('light1')">Light</a> And The <a href="javascript:void(0)" onclick="m('darkness1')">Darkness</a>
 </div><br>
+
 <script>
 function m(identifier) {
   if (identifier=='light1') {
     text = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Light Brings  <a href=\"javascript:void(0)\" onclick=\"m(\'life1\')">Life</a>  into our <a href=\"javascript:void(0)\" onclick=\"m(\'sight1\')\" >Sight</a>'
-    console.log(text)
     magic(text)
   }
   else if (identifier=='life1') {
@@ -199,6 +200,8 @@ function magic(wordagain) {
     $("." + 'start').html(text);
 }
 </script>
+<br><br>
+ 
 <!--
 © James T. Bytes 2021
 Bitcoin donation address: bc1q99vng5nykfjv7vy8crj7p3a4nluwgm44mup20a

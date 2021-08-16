@@ -1,1 +1,14 @@
 theme: jekyll-theme-tactile
+
+url: "https://lightdark.art"
+title: "LightDark.art"
+description: ""
+tagline: ""
+email: jamesbytescontact@gmail.com
+author: "Bytes The Blessed"
+
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
