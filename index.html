@@ -82,11 +82,10 @@ a {
 }
 #banner{
 /*  background-color: #111; */
-
+  width:242px;
   font-size: 24px;
-  padding-left:24px;
-  padding-top:18px;
-  padding-bottom:14px;
+  border: 2px solid black;
+  color: black;
 }
 #about {
   display: none;
@@ -96,16 +95,23 @@ a {
 <body id="body" class="normal">
 <div id="main">
 <p > <b> <a href="javascript:void(0)" onclick="openA()" style="font-size:24px;">About</a> </b> </p>
+<div>
 <a href="./desktop.html" >  Start Desktop </a> <br>
 <a href="./mobile.html" >  Start Mobile </a>
-
-<br><br>
+</div>
+<br>
 <footer id="about">
-  <p style='font-size: 14px;  border: 2px solid black; width: 176px;'> <b>
-  <a href="https://opensea.io/collection/lightdarkart"> LightDark.art NFT Collection <br> at <img src="./img/opensea.png"></img></a> <br>
-</b> </p>
+  <div id="banner" class="sorce" >
+     <a class="sorce" href="https://SorceRawr.com" style="color: black;">
+  &nbsp; Back to: <br>
+ <img src="./img/logo242.png"> </a> <!--
+  <a class="sorce" href="https://SorceRawr.com"> Sorce<span style="color:#FF3838">R</span><span style="color:#D7FF38">a</span><span style="color:#38FF88">w</span><span style="color:#3888FF">r</span><span style="color:#D738FF">.</span>com</a>
+ -->
+  </div>
+  <p style='font-size: 14px;  border: 2px solid black; width: 176px; margin-bottom:0px !important; padding-bottom:0px !important;'> <b>
+  <a href="https://opensea.io/collection/lightdarkart"> The LightDark.art NFT Collection <br> on <img src="./img/opensea.png" style=""></img></a> </b> </p>
 
-    <a href="https://twitter.com/BytesTheBlessed?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BytesTheBlessed</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a style="padding-top: 0px !important;" href="https://twitter.com/BytesTheBlessed?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BytesTheBlessed</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <br>
 
     <a href="https://www.instagram.com/bytes_the_blessed/"> <img src="./img/instagram.png"></img></a> <br>
@@ -115,13 +121,7 @@ a {
    Ethereum donation address: 0x39c7C9FdB10Df996d59590fd5cC52483a919EB29   <br> <br>
    <p style='font-size: 14px;'><b><a href="https://jamesbyt.es"> Created by © James T. Bytes 2021</a>  </b>
    <!-- Created by © <a style="color:#a28351 !important;" href=https://jamesbyt.es id="jtb">James T. Bytes </a> 2021  -->
-   <div id="banner" class="sorce" >
-   Back to:
-      <a class="sorce" href="https://SorceRawr.com">
-<img src="./img/logo242.png"> </a> <!--
-   <a class="sorce" href="https://SorceRawr.com"> Sorce<span style="color:#FF3838">R</span><span style="color:#D7FF38">a</span><span style="color:#38FF88">w</span><span style="color:#3888FF">r</span><span style="color:#D738FF">.</span>com</a>
--->
-   </div>
+
 </footer>
 <script>
 function openA() {
