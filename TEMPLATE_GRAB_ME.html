@@ -1,0 +1,22 @@
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<div style="display:inline;" id="start" class="start">
+<a href="javascript:void(0)" onclick="m('words1')">These Words </a>Bring <a href="javascript:void(0)" onclick="m('light1')">Light</a> And The <a href="javascript:void(0)" onclick="m('darkness1')">Darkness</a>
+</div><br>
+<script>
+function m(identifier) {
+  if (identifier=='light1') {
+    text = 'The Light Brings  <a href=\"javascript:void(0)\" onclick=\"m(\'life1\')">Life</a>  into our <a href=\"javascript:void(0)\" onclick=\"m(\'sight1\')\" >Sight</a>'
+    magic(text)
+  }
+  else if (identifier=='life1') {
+    text = 'The <a href=\"javascript:void(0)\" onclick=\"m(\'spirit1\')">Spirit</a> Breathes Life into my <a href=\"javascript:void(0)\" onclick=\"m(\'flesh1\')">Flesh</a> '
+    magic(text)
+  }
+}
+function magic(wordagain) {
+    var text = `<div style=" ">
+          ${wordagain} <br>
+          </div>`
+    $("." + 'start').html(text);
+}
+</script>
