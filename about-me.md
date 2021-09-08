@@ -19,3 +19,5 @@ As a creative, I present perspectives that I love. <br>
   * [Facebook](https://www.facebook.com/jamestheblessed)
   * [OpenSea](https://opensea.io/Bytes_The_Blessed)
   * [Goodreads](https://www.goodreads.com/user/show/135257757-james-the-blessed)
+
+{% include lightdarkdata.html %}
